@@ -1,7 +1,10 @@
+import { MetamaskConnect } from "@/components/MetamaskConnect";
+
 const TokenPage = () => {
   return (
     <div>
       <h1>토큰 판매 페이지</h1>
+      <MetamaskConnect />
       <div>
         <span>보내는 이더리움 개수 : </span>
         <input type="text" />
